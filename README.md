@@ -28,10 +28,10 @@ Click on the `Apps` menu and select `Members Tags` (if you're lucky, it might be
 
 You will hopefully be presented with a list of the tags that have been assigned to members in the Members app. If not, add some tags to members. In the Members app.
 
-If a tag is _not_ being used by any members, you will have the ability to delete the tag. Delete means delete in this case - no soft delete round these parts.
+If a tag has _not_ been assigned to any members, you will have the ability to delete the tag. Delete means delete in this case - no soft delete round these parts.
 
 Click on a tag name to edit the tag display text - **be careful though - if you change the tag name and it's referenced in your code, your code might work.**  
-You will also be shown a list of members taht have this tag assigned to them. Click on a member name to be taken to their edit page in the Members app.
+You will also be shown a list of members that have this tag assigned to them. Click on a member name to be taken to their edit page in the Members app.
 
 ## Enjoy
 
