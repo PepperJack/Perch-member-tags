@@ -10,7 +10,7 @@ Perch Members app v1.5 must be installed.
 
 This app directly modifies the Perch Members database tables - there is no public api available for this, so if the Perch developers upgrade the Members app and modify the tables, this app may not work. Be aware.
 
-I provide no warranty (or promise of a higher state if consciousness) if you use this app. 
+I provide no warranty (or promise of a higher state of consciousness) if you use this app. 
 
 ## Setup
 
