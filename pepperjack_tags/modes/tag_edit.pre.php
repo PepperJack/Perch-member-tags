@@ -1,7 +1,6 @@
 <?php
 
     $Tags = new PepperjackTags_Tags($API);
-    //$Members = new PerchMembers_Members($API);
 
     $HTML = $API->get('HTML');
     $Form = $API->get('Form');
@@ -45,8 +44,4 @@
         $properties = PerchUtil::json_safe_decode($member['memberProperties']);
         $member['fullname'] = $properties->first_name . ' ' . $properties->last_name;
         $members[] = $member;
-        /*$Member = $Members->find($member['memberID']);
-        $info = $Member->to_array();
-        $member['fullname'] = $info['first_name'].' '.$info['last_name'];
-        $members[] = $member;*/
     }

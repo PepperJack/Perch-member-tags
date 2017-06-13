@@ -19,10 +19,9 @@
 
     echo $Form->form_start(false, 'magnetic-save-bar');
 
-        echo '<p class="formnotes">Be careful editing the Tag name - especially if the tags are used in page code - just use this to add capital letters to the Display Text, if necessary</p>';
-        echo '<p class="formnotes">Changing the Tag Display Text will also change the Tag name</p>';
+        echo '<p class="formnotes">Be careful editing the Tag name - especially if the tags are used in page code - just use this to add capital letters to the Display Text, if necessary.</p>';
+        echo '<p class="formnotes">Changing the Tag Display Text will also change the Tag name.</p>';
         echo $Form->text_field('tag', 'Tag', isset($details['tag'])?$details['tag']:false, 'm',false,' disabled="disabled"');
-        //echo $Form->hint('Edit the Display Text above to automatically update the Tag name');
         echo $Form->text_field('tagDisplay', 'Tag Display Text', isset($details['tagDisplay'])?$details['tagDisplay']:false, 'm');
 
         echo $Form->submit_field('btnSubmit', 'Save', $API->app_path());
@@ -49,9 +48,7 @@
                     echo '<td class="primary">';
                     echo '<a href="'.$HTML->encode(PERCH_LOGINPATH).'/addons/apps/perch_members/edit/?id='.$HTML->encode(urlencode($member['memberID'])).'">'.$member['fullname'].'</a></td>';
                     echo '<td>'.PerchUtil::html($member['tagExpires'] ? strftime('%d %b %Y', strtotime($member['tagExpires'])) : '-').'</td>';
-                    echo '<td>';
-                        //echo ($member['count'] == 0 ? '<a href="'.$HTML->encode($API->app_path()).'/delete/?id='.$HTML->encode(urlencode($member['memberID'])).'" class="delete inline-delete">'.PerchLang::get('Delete').'</a>' : '');
-                    echo '</td>';
+                    echo '<td></td>';
                 echo '</tr>';
                 $i++;
             }
