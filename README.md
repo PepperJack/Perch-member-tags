@@ -4,7 +4,7 @@ This is a small app for the Perch CMS ([grabaperch.com](https://grabaperch.com))
 
 ## Important Stuff
 
-Perch or Perch Runway v3.0 or above must be installed (as per the Members app v1.6).
+Perch or Perch Runway v3.0 or above must be installed (as per the Members app v1.6).  
 (If you're still using Perch 2, use release v1.0 of this app).
 
 Perch Members app v1.6 or above must be installed.
