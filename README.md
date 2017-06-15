@@ -1,4 +1,4 @@
-# Perch: Member Tags (v1.3)
+# Perch: Member Tags (v1.3) 
 
 This is a small app for the Perch CMS ([grabaperch.com](https://grabaperch.com)) to allow an administrator to view and edit all the tags that are currently used by the Perch Members app.
 
