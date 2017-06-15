@@ -2,7 +2,6 @@
 
     $Tags = new PepperjackTags_Tags($API);
 
-    $HTML = $API->get('HTML');
     $Form = $API->get('Form');
 	
 	$message = false;
@@ -36,7 +35,6 @@
             $details = array();
         }
     }
-
 
     $members = [];
     $members_by_tag = $Tags->get_members_by_tag($_GET['id']);

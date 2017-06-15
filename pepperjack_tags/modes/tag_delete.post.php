@@ -1,18 +1,10 @@
 <?php
-   
-    # Side panel
-    echo $HTML->side_panel_start();
-
-    echo $HTML->side_panel_end();
-    
     # Main panel
-    echo $HTML->main_panel_start(); 
-
-    include('_subnav.php');
 
     # Title panel
-    
-    echo $HTML->heading1('Delete a Tag');
+    echo $HTML->title_panel([
+            'heading' => 'Delete a Tag',
+    ], $CurrentUser);
 
     
     if ($message) {
@@ -25,5 +17,3 @@
 
         echo $Form->form_end();
     }
-    
-    echo $HTML->main_panel_end();

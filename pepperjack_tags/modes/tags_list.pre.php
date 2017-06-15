@@ -1,7 +1,5 @@
 <?php
 
-$HTML = $API->get('HTML');
-
 $Tags = new PepperjackTags_Tags($API);
 
 if (isset($_GET['status']) && $_GET['status'] == 'unused') {

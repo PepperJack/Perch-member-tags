@@ -1,12 +1,13 @@
-# Perch: Member Tags
+# Perch: Member Tags (v1.3)
 
 This is a small app for the Perch CMS ([grabaperch.com](https://grabaperch.com)) to allow an administrator to view and edit all the tags that are currently used by the Perch Members app.
 
 ## Important Stuff
 
-Perch or Perch Runway v2.8.29 or above must be installed (as per the Members app v1.5).
+Perch or Perch Runway v3.0 or above must be installed (as per the Members app v1.6).
+(If you're still using Perch 2, use release v1.0 of this app).
 
-Perch Members app v1.5 must be installed.
+Perch Members app v1.6 or above must be installed.
 
 This app directly modifies the Perch Members database tables - there is no public api available for this, so if the Perch developers upgrade the Members app and modify the tables, this app may not work. Be aware.
 
@@ -16,7 +17,7 @@ I provide no warranty (or promise of a higher state of consciousness) if you use
 
 Ensure the Perch Members app is installed.
 
-Copy the `pepperjack_tags` folder into the `perch/addons/apps/` folder (or if you've renamed your perch folder, copy into the whateveryournewnamefortheperchfolderis/addons/apps/ folder).
+Copy the `pepperjack_tags` folder into the `perch/addons/apps/` folder (or if you've renamed your perch folder, copy into the `whateveryournewnamefortheperchfolderis/addons/apps/` folder).
 
 If an administrator has the privilege "manage members", they will also be able to use this app.
 
@@ -24,7 +25,7 @@ If an administrator has the privilege "manage members", they will also be able t
 
 Login to the Perch control panel as a user with the privilege "manage members".
 
-Click on the `Apps` menu and select `Members Tags` (if you're lucky, it might be underneath Members in the list).
+Select `Members Tags` from the menu sidebar (if you're lucky, it might be underneath Members in the list).
 
 You will hopefully be presented with a list of the tags that have been assigned to members in the Members app. If not, add some tags to members. In the Members app.
 

@@ -3,6 +3,7 @@
     include('../../../../core/inc/api.php');
     
     $API  = new PerchAPI(1.0, 'pepperjack_tags');
+    $HTML = $API->get('HTML');
 
     # include your class files
     include('../PepperjackTags_Tags.class.php');
@@ -16,6 +17,7 @@
 
 
     # Do anything you want to do before output is started
+    include('../modes/_subnav.php');
     include('../modes/tag_edit.pre.php');
     
     

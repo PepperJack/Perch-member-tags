@@ -2,7 +2,6 @@
     
     $Tags = new PepperjackTags_Tags($API);
 
-    $HTML = $API->get('HTML');
     $Form = $API->get('Form');
 	
 	$message = false;
@@ -11,9 +10,7 @@
 	    $Tag = $Tags->check_usage_and_find($_GET['id']);
 	}
 	
-	
 	if (!is_object($Tag)) PerchUtil::redirect($API->app_path());
-	
 	
 	$Form->set_name('delete');
 
@@ -34,5 +31,4 @@
         }
     }
 
-    
     $details = $Tag->to_array();
