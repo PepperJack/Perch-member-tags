@@ -5,10 +5,6 @@
     $API  = new PerchAPI(1.0, 'pepperjack_tags');
     $HTML = $API->get('HTML');
 
-    # include your class files
-    include('../PepperjackTags_Tags.class.php');
-    include('../PepperjackTags_Tag.class.php');
-    
     # Grab an instance of the Lang class for translations
     $Lang = $API->get('Lang');
 
